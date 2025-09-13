@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fore{
+    background-color: rgb(229, 31, 31);
+    width: 100%;
+    padding-bottom: 10px;
+    
+}
+.location{
+    padding: 10px;
+    margin-bottom: -20px;
+    margin-left: 90px;
+    
+}
+.opp{
+    margin-top: -20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+.alarm{
+    padding: 10px;
+    margin-bottom: -20px;
+    margin-left: 30px;
+}
+.phone{
+    padding: 10px;
+    margin-bottom: -20px;
+    margin-left: 30px;
+}
+.logo{
+    margin-left: 90px;
+    margin-top: 35px;
+}
+.ser{
+    width: 15px;
+}
+.task{
+    
+    margin: 0;
+    padding: 0;
+    margin-left: 400px;
+    margin-top: -40px;
+}
+li {
+    display: inline;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li a:hover{
+    font-size: 19px;
+    transition: 0.5s;
+}
+.rain{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/slide3a.png);
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 40px;
+}
+.ola{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 4px 8px rgb(28, 28, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 150px;      
+}
+.day{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 4px 8px rgb(28, 28, 28);
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 0;
+}
+.link{
+    border: 2px solid white;
+    width: 120px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.link:hover{
+    font-size: 17px; 
+    transition: 0.5s;   
+}
+.alert{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    width: 100px;
+    padding: 8px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.daily{
+    border-bottom: 1.5px solid rgb(223, 220, 220);
+    width:81%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.wel{
+    background-color: rgb(246, 244, 244);
+    width: 85%;
+    height: 250px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.prop{
+    width: 140px;
+    height: 185px;
+    margin-top: 30px;
+    padding: 5px;
+    border: 9px solid rgb(202, 200, 200);
+    margin-left: 10px;
+}
+.dir{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left: 180px;
+    margin-top: -210px;
+}
+.special{
+    font-size: 18px;
+}
+.linkss{
+    border: 1px solid rgb(255, 0, 0);
+    width: 80px;
+    height: 35px;
+    padding: 8px;
+    background-color: red;
+    margin-left: 190px;
+     margin-top: -3px
+}
+.linkss a{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12px; 
+    text-align: center;  
+}
+.admin{
+    background-color: red;
+    width: 230px;
+    height: 190px;
+    margin-top: 10px;
+}
+.add{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left: 17px;
+    padding-top: 20px;
+}
+.bottom{
+    border-bottom: 1.5px solid white;
+    width: 180px;
+    margin-left: 25px;
+}
+.funfun{
+    border: 1px solid white;
+    width: 70px;
+    height: 20px;
+    background-color: white;
+     margin-left: 25px;
+     margin-top: 10px;
+}
+.dnd{
+    margin-top: -6px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.abt{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.us{
+    border-bottom: 1.5px solid rgb(223, 220, 220);
+    width:85%;
+    margin-left:120px;
+    margin-top: 30px;
+}
+.coll{
+    margin-left: 120px;
+    margin-top: 30px;
+    width: 300px;
+}
+.val{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    word-spacing: 2px;
+    margin-left: 430px;
+    margin-top: -210px;
+}
+.moree{
+    margin-left: 430px;
+    
+}
+.moree a{
+    text-decoration: none;
+    color: red;
+}
+.moree a:hover{
+    color: blue;
+}
+.board{
+    border: 1px solid rgb(227, 225, 225);
+    background-color: rgb(227, 225, 225);
+    width: 230px;
+    padding: 5px;
+    color: black;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.oil{
+   display: block;
+   margin-right: 10px;
+}
+.pros{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-top: 1px;
+}
+.mini{
+   border: 1px solid white;
+   width: 320px;
+   height: 440px;
+   background-color: black;
+}
+.mide{
+    width: 318.5px;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.evi{
+    margin-left: 120px;
+    margin-top: 10px;
+   
+}
+.eminem{
+    border: 1px solid white;
+   width: 150px;
+   height: 150px;
+   background-color: black;
+   margin-top: 20px;
+   
+}
+.ogo{
+border: 1px solid white;
+   width: 151px;
+   height: 190px;
+   background-color: black;
+   float:left;
+}
+.pd{
+    margin-left: 430px;
+    margin-top: -440px;
+    padding-inline: 20px;
+    padding-right: 10px;
+}
+.nav{
+    width: 50px;
+    margin-left: 10px;
+    
+}
+.usa{
+    border-bottom: 1.5px solid rgb(223, 220, 220);
+    width:85%;
+    margin-left:120px;
+    margin-top: 20px;
+}
+.news{
+    background-color: red;
+    width: 1250px;
+    height: 50px;
+    margin-top: 30px;
+    
+}
+.let{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    padding-top: 10px;
+}
+.hold{
+    margin-left: 550px;
+    margin-top: -24px;
+}
+.holder{
+    width: 350px;
+    padding: 5px;
+}
+.sign{
+    border: 2px solid white;
+    width: 150px;
+    margin-left: 1000px;
+    margin-top: -30px;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+.late{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1.5px solid rgb(223, 220, 220);
+   width: 200px;
+   padding-bottom: 10px;
+   margin-left: 400px;
+   margin-top: -40px;
+}
+.later{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1.5px solid rgb(223, 220, 220);
+   width: 200px;
+   padding-bottom: 10px;
+   margin-left: 650px;
+   margin-top: -40px;
+}
+.navi{
+    margin-left: 20px;
+}
+.lates{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1.5px solid rgb(223, 220, 220);
+   width: 200px;
+   padding-bottom: 10px;
+   margin-left: 950px;
+   margin-top: -38px;
+}
+.cia{
+    margin-top: 30px;
+    margin-left: 100px;
+    line-height: 1.3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.red{
+    color: red;
+}
+.site{
+    margin-left: 25px;
+    margin-top: -23px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.demo{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.comp{
+    width: 200px;
+    margin-left: 400px;
+    margin-top: -280px;
+    padding-bottom: 80px;
+}
+.local{
+    margin-left: 650px;
+    margin-top: -420px;
+    padding-bottom: 170px;
+}
+.mend{
+    margin-left: 650px;
+    margin-top: -190px;
+}
+.book{
+    margin-left: 950px;
+    margin-top: -330px;
+    padding-bottom: 150px;
+}
+.medics{
+    margin-left: 100px;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+.least{
+    background-color: black;
+    width: 1250px;
+    height: 35px;
+    
+}
+.open{
+    color: rgb(187, 185, 185);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    padding: 10px;
+}
+.close{
+    color: rgb(187, 185, 185);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 700px;
+    padding: 10px;
+    margin-top: -35px;
+}
+.closet{
+    color: rgb(187, 185, 185);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 850px;
+    padding: 10px;
+    margin-top: -35px;
+}
+.long{
+    color: rgb(187, 185, 185);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1020px;
+    padding: 10px;
+    margin-top: -35px;
+}
